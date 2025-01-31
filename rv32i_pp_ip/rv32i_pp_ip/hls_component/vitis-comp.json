@@ -1,0 +1,11 @@
+{
+  "name": "hls_component",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\hls_component\\hls_config.cfg"
+    ],
+    "work_dir": "rv32i_pp_ip"
+  }
+}

@@ -1,0 +1,1173 @@
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls opened at Fri Jan 24 00:26:07 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+WARNING: [HLS 200-2001] file not found '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     add_files /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp 
+WARNING: [HLS 200-40] Cannot find design file '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13)
+Command     send_msg_by_id done; 0.157 sec.
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24)
+Execute     add_files -tb C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20)
+Execute     set_top rv32i_pp_ip 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1)
+Execute     set_part xc7z020clg400-1 
+Execute       create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command       create_platform done; 2.116 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.249 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4)
+Execute     create_clock -period 10ns 
+Execute       ap_set_clock -name default -period 10 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21)
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1465@%s 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22) 
+INFO: [HLS 200-1465] Applying ini 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22)
+Execute     config_export -rtl=verilog 
+Command   apply_ini done; 2.593 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 1.305 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls opened at Fri Jan 24 00:26:32 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+WARNING: [HLS 200-2001] file not found '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     add_files /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp 
+WARNING: [HLS 200-40] Cannot find design file '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13)
+Command     send_msg_by_id done; 0.35 sec.
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24)
+Execute     add_files -tb C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20)
+Execute     set_top rv32i_pp_ip 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1)
+Execute     set_part xc7z020clg400-1 
+Execute       create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command       create_platform done; 2.16 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.294 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4)
+Execute     create_clock -period 10ns 
+Execute       ap_set_clock -name default -period 10 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21)
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1465@%s 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22) 
+INFO: [HLS 200-1465] Applying ini 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22)
+Execute     config_export -rtl=verilog 
+Command   apply_ini done; 2.834 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.618 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls opened at Fri Jan 24 00:26:45 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+WARNING: [HLS 200-2001] file not found '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     add_files /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp 
+WARNING: [HLS 200-40] Cannot find design file '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13)
+Command     send_msg_by_id done; 0.319 sec.
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24)
+Execute     add_files -tb C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20)
+Execute     set_top rv32i_pp_ip 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1)
+Execute     set_part xc7z020clg400-1 
+Execute       create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command       create_platform done; 1.969 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.092 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4)
+Execute     create_clock -period 10ns 
+Execute       ap_set_clock -name default -period 10 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21)
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1465@%s 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22) 
+INFO: [HLS 200-1465] Applying ini 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22)
+Execute     config_export -rtl=verilog 
+Command   apply_ini done; 2.581 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.O=0' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(3) 
+INFO: [HLS 200-1465] Applying ini 'csim.O=0' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(3)
+Execute     config_csim -O=0 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(4)
+Execute     config_csim -clean=1 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.setup=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(2) 
+INFO: [HLS 200-1465] Applying ini 'csim.setup=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(2)
+Execute     config_csim -setup=1 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] CSim file generation failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+5
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 5
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.637 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls opened at Fri Jan 24 00:27:10 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+WARNING: [HLS 200-2001] file not found '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     add_files /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp 
+WARNING: [HLS 200-40] Cannot find design file '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13)
+Command     send_msg_by_id done; 0.396 sec.
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24)
+Execute     add_files -tb C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20)
+Execute     set_top rv32i_pp_ip 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1)
+Execute     set_part xc7z020clg400-1 
+Execute       create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command       create_platform done; 1.979 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.1 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4)
+Execute     create_clock -period 10ns 
+Execute       ap_set_clock -name default -period 10 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21)
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1465@%s 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22) 
+INFO: [HLS 200-1465] Applying ini 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22)
+Execute     config_export -rtl=verilog 
+Command   apply_ini done; 2.668 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.O=0' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(3) 
+INFO: [HLS 200-1465] Applying ini 'csim.O=0' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(3)
+Execute     config_csim -O=0 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(4)
+Execute     config_csim -clean=1 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.setup=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(2) 
+INFO: [HLS 200-1465] Applying ini 'csim.setup=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(2)
+Execute     config_csim -setup=1 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] CSim file generation failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+5
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 5
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.655 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls opened at Fri Jan 24 00:28:09 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+WARNING: [HLS 200-2001] file not found '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     add_files /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp 
+WARNING: [HLS 200-40] Cannot find design file '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13)
+Command     send_msg_by_id done; 0.373 sec.
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24)
+Execute     add_files -tb C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20)
+Execute     set_top rv32i_pp_ip 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1)
+Execute     set_part xc7z020clg400-1 
+Execute       create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command       create_platform done; 2.013 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.138 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4)
+Execute     create_clock -period 10ns 
+Execute       ap_set_clock -name default -period 10 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21)
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1465@%s 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22) 
+INFO: [HLS 200-1465] Applying ini 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22)
+Execute     config_export -rtl=verilog 
+Command   apply_ini done; 2.682 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.635 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls opened at Fri Jan 24 00:30:17 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+WARNING: [HLS 200-2001] file not found '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     add_files /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp 
+WARNING: [HLS 200-40] Cannot find design file '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13)
+Command     send_msg_by_id done; 0.294 sec.
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24)
+Execute     add_files -tb C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20)
+Execute     set_top rv32i_pp_ip 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1)
+Execute     set_part xc7z020clg400-1 
+Execute       create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command       create_platform done; 2.084 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.207 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4)
+Execute     create_clock -period 10ns 
+Execute       ap_set_clock -name default -period 10 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(25) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(25)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21)
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1465@%s 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22) 
+INFO: [HLS 200-1465] Applying ini 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22)
+Execute     config_export -rtl=verilog 
+Command   apply_ini done; 2.69 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.657 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls opened at Fri Jan 24 00:30:38 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+WARNING: [HLS 200-2001] file not found '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     add_files /home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp 
+WARNING: [HLS 200-40] Cannot find design file '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13)
+Command     send_msg_by_id done; 0.303 sec.
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24)
+Execute     add_files -tb C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20)
+Execute     set_top rv32i_pp_ip 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1)
+Execute     set_part xc7z020clg400-1 
+Execute       create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command       create_platform done; 1.987 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.11 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4)
+Execute     create_clock -period 10ns 
+Execute       ap_set_clock -name default -period 10 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(25) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(25)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(26) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(26)
+Execute     config_csim -code_analyzer=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21)
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1465@%s 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22) 
+INFO: [HLS 200-1465] Applying ini 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22)
+Execute     config_export -rtl=verilog 
+Command   apply_ini done; 2.604 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO-FLOW: ::SLX::run_csim failed: child process exited abnormally
+INFO-FLOW: Caught error in csim_design: Problem running csim: child process exited abnormally
+    while executing
+"error "Problem running $stage: $result""
+    (procedure "::AP::hls_slx_hook" line 54)
+    invoked from within
+"::AP::hls_slx_hook csim $config_value_dict replace_flow"
+    (procedure "ap_internal_csim_design" line 104)
+    invoked from within
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 2.918 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls opened at Fri Jan 24 00:31:52 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' to the project
+Command     add_files done; 0.32 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18)
+Execute     add_files C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(23) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(23)
+Execute     add_files -tb C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19)
+Execute     set_top rv32i_pp_ip 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1)
+Execute     set_part xc7z020clg400-1 
+Execute       create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command       create_platform done; 2.094 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.222 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4)
+Execute     create_clock -period 10ns 
+Execute       ap_set_clock -name default -period 10 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=0' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(25) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(25)
+Execute     config_csim -code_analyzer=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20)
+Execute     config_export -format=ip_catalog 
+Execute     send_msg_by_id INFO @200-1465@%s 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21) 
+INFO: [HLS 200-1465] Applying ini 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21)
+Execute     config_export -rtl=verilog 
+Command   apply_ini done; 2.763 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.715 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 

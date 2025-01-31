@@ -1,0 +1,73 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2\hls_component2.hlsrun_csim_summary, at 01/24/25 00:26:43
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2 -config C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg -config C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg -cmdlineconfig C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1.2 (64-bit)
+  **** SW Build 5096458 on Sep  5 2024
+  **** IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+  **** SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+  **** Start of session at: Fri Jan 24 00:26:44 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'kwokt' on host 'desktop-q1lrole' (Windows NT_amd64 version 10.0) on Fri Jan 24 00:26:45 -0500 2025
+INFO: [HLS 200-10] In directory 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2'
+INFO: [HLS 200-2005] Using work_dir C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+WARNING: [HLS 200-2001] file not found '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' see [hls] from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(6)
+WARNING: [HLS 200-40] Cannot find design file '/home/goossens/goossens-book-ip-projects/2024.1/rv32i_pp_ip/wb.cpp'
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/compute.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/decode.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/disassemble.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/emulate.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/execute.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(13)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/fetch_decode.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/immediate.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/mem.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(16)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/print.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(17)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/rv32i_pp_ip.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(18)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/type.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(19)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/wb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(24)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/testbench_rv32i_pp_ip.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=rv32i_pp_ip' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(20)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(5)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(4)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(21)
+INFO: [HLS 200-1465] Applying ini 'vivado.rtl=verilog' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_config.cfg(22)
+INFO: [HLS 200-1465] Applying ini 'csim.O=0' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(3)
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(4)
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+INFO: [HLS 200-1465] Applying ini 'csim.setup=1' from C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/hls_component2/hls_component2/hls-debug.cfg(2)
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+The system cannot find the path specified.
+make: *** [Makefile.rules:444: obj/.dir] Error 1
+ERROR: [SIM 211-100] CSim file generation failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+ERROR: 5
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 2 seconds. Total elapsed time: 4.276 seconds; peak allocated memory: 236.887 MB.

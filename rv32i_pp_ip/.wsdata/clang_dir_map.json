@@ -1,0 +1,33 @@
+{
+  "workspaceRoot": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip",
+  "mapping": {
+    "decode.cpp": "hls_component2",
+    "fetch.cpp": "hls_component2",
+    "immediate.cpp": "hls_component2",
+    "wb.cpp": "hls_component2",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\disassemble.cpp": "hls_component",
+    "fetch_decode.cpp": "hls_component2",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\fetch_decode.cpp": "hls_component",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip.cpp": "hls_component",
+    "disassemble.cpp": "hls_component2",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\type.cpp": "hls_component",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\immediate.cpp": "hls_component",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\fetch.cpp": "hls_component",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\mem.cpp": "hls_component",
+    "execute.cpp": "hls_component2",
+    "testbench_rv32i_pp_ip.cpp": "hls_component2",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\emulate.cpp": "hls_component",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\decode.cpp": "hls_component",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\execute.cpp": "hls_component",
+    "compute.cpp": "hls_component2",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\wb.cpp": "hls_component",
+    "print.cpp": "hls_component2",
+    "emulate.cpp": "hls_component2",
+    "type.cpp": "hls_component2",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\print.cpp": "hls_component",
+    "mem.cpp": "hls_component2",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\compute.cpp": "hls_component",
+    "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\testbench_rv32i_pp_ip.cpp": "hls_component",
+    "rv32i_pp_ip.cpp": "hls_component2"
+  }
+}

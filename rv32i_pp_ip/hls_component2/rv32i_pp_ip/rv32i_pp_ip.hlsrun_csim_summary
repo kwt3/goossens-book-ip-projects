@@ -1,0 +1,168 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\hls_component2\\rv32i_pp_ip\\rv32i_pp_ip.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "01/24/25 00:34:05",
+ "timestampMillis": "2530058195",
+ "buildStep": {
+  "cmdId": "3ccaf8ac-258a-499c-a265-d9d96520dbed",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\hls_component2\\rv32i_pp_ip\\logs\\rv32i_pp_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\hls_component2\\hls_config.cfg --work_dir rv32i_pp_ip ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\hls_component2\\hls_config.cfg",
+   "--work_dir",
+   "rv32i_pp_ip"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\hls_component2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/24/25 00:34:05",
+ "timestampMillis": "2530058196",
+ "status": {
+  "cmdId": "3ccaf8ac-258a-499c-a265-d9d96520dbed",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "01/24/25 00:34:11",
+ "timestampMillis": "2530063777",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "rv32i_pp_ip",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\compute.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\decode.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\disassemble.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\emulate.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\execute.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\fetch.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\fetch_decode.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\immediate.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\mem.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\print.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\type.cpp",
+     "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\wb.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "01/24/25 00:34:11",
+ "timestampMillis": "2530063781",
+ "buildStep": {
+  "cmdId": "072c8448-37e1-400e-b865-290f900cc7d5",
+  "name": "csim_design",
+  "logFile": "C:/Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\hls_component2\\rv32i_pp_ip\\hls\\hls.log",
+  "commandLine": "csim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\hls_component2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/24/25 00:34:11",
+ "timestampMillis": "2530063782",
+ "status": {
+  "cmdId": "072c8448-37e1-400e-b865-290f900cc7d5",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/24/25 00:34:12",
+ "timestampMillis": "2530064481",
+ "status": {
+  "cmdId": "072c8448-37e1-400e-b865-290f900cc7d5",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/24/25 00:34:12",
+ "timestampMillis": "2530064598",
+ "status": {
+  "cmdId": "3ccaf8ac-258a-499c-a265-d9d96520dbed",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/24/25 00:34:12",
+ "timestampMillis": "2530064599",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/24/25 00:34:12",
+ "timestampMillis": "2530064599",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,170 @@
+[
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\emulate.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\emulate.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\decode.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\decode.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\execute.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\execute.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\disassemble.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\disassemble.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\wb.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\wb.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\fetch_decode.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\fetch_decode.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\type.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\type.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\immediate.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\immediate.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\print.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\print.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\fetch.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\fetch.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\mem.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\mem.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\compute.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\compute.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Desktop\\goossens-book-ip-projects-main\\2024.1\\rv32i_pp_ip\\rv32i_pp_ip\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
+      "",
+      "-c",
+      "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\testbench_rv32i_pp_ip.cpp"
+    ],
+    "file": "C:\\home\\goossens\\goossens-book-ip-projects\\2024.1\\rv32i_pp_ip\\testbench_rv32i_pp_ip.cpp"
+  }
+]

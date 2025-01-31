@@ -1,0 +1,121 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v" into library axi_infrastructure_v1_1_0
+INFO: [VRFC 10-311] analyzing module axi_infrastructure_v1_1_0_axi2vector
+INFO: [VRFC 10-311] analyzing module axi_infrastructure_v1_1_0_axic_srl_fifo
+INFO: [VRFC 10-311] analyzing module axi_infrastructure_v1_1_0_vector2axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/4d04/hdl/axi_vip_v1_1_vl_rfs.sv" into library axi_vip_v1_1_17
+INFO: [VRFC 10-311] analyzing module axi_vip_v1_1_17_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/b28c/hdl/processing_system7_vip_v1_0_vl_rfs.sv" into library processing_system7_vip_v1_0_19
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_wr
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_rd
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_wr_4
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_rd_4
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_hp2_3
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_hp0_1
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_ssw_hp
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_sparse_mem
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_reg_map
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_ocm_mem
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_intr_wr_mem
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_intr_rd_mem
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_fmsw_gp
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_regc
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_ocmc
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_interconnect_model
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_gen_reset
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_gen_clock
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_ddrc
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_axi_slave
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_axi_slave_acp
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_axi_master
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_afi_slave
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.ip_user_files/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_processing_system7_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v" into library generic_baseblocks_v2_1_2
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_carry_and
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_carry_latch_and
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_carry_latch_or
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_carry_or
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_carry
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_command_fifo
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_mask_static
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_mask
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_sel_mask_static
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_sel_mask
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_sel_static
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_sel
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_static
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_mux_enc
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_mux
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_nto1_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/1443/simulation/fifo_generator_vlog_beh.v" into library fifo_generator_v13_2_10
+INFO: [VRFC 10-311] analyzing module fifo_generator_vlog_beh
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_CONV_VER
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_sync_stage
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_bhv_ver_as
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_beh_ver_ll_afifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_bhv_ver_ss
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_bhv_ver_preload0
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_axic_reg_slice
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/1443/hdl/fifo_generator_v13_2_rfs.v" into library fifo_generator_v13_2_10
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/9692/hdl/axi_data_fifo_v2_1_vl_rfs.v" into library axi_data_fifo_v2_1_30
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_axic_fifo
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_fifo_gen
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_axic_srl_fifo
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_axic_reg_srl_fifo
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_ndeep_srl
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_axi_data_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/92b2/hdl/axi_register_slice_v2_1_vl_rfs.v" into library axi_register_slice_v2_1_31
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_test_master
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_test_slave
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_tdm_sample
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_auto_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_auto_src
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_auto_dest
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_srl_rtl
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_axic_register_slice
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_multi_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_middle_region_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_source_region_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_dest_region_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_single_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_axic_reg_srl_fifo
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_axi_register_slice
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/3c06/hdl/axi_protocol_converter_v2_1_vl_rfs.v" into library axi_protocol_converter_v2_1_31
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_a_axi3_conv
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_axi3_conv
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_axilite_conv
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_r_axi3_conv
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_w_axi3_conv
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b_downsizer
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_decerr_slave
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_simple_fifo
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_wrap_cmd
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_incr_cmd
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_wr_cmd_fsm
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_rd_cmd_fsm
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_cmd_translator
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_b_channel
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_r_channel
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_aw_channel
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_ar_channel
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_axi_protocol_converter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.ip_user_files/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/097b/hdl/verilog/my_adder_ip_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_adder_ip_control_s_axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/097b/hdl/verilog/my_adder_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_adder_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.ip_user_files/bd/design_1/ip/design_1_my_adder_ip_0_1/sim/design_1_my_adder_ip_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_my_adder_ip_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-311] analyzing module design_1_ps7_0_axi_periph_0
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_UYSKKA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

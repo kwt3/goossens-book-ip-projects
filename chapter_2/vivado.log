@@ -1,0 +1,392 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.2 (64-bit)
+# SW Build 5164865 on Thu Sep  5 14:37:11 MDT 2024
+# IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+# SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+# Start of session at: Fri Jan 31 02:18:22 2025
+# Process ID: 12856
+# Current directory: C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7816 C:\Users\kwokt\Desktop\goossens-book-ip-projects-main\2024.1\chapter_2\project_1.xpr
+# Log file: C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/vivado.log
+# Journal file: C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2\vivado.jou
+# Running On        :DESKTOP-Q1LROLE
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz
+# CPU Frequency     :2592 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :17028 MB
+# Swap memory       :10737 MB
+# Total Virtual     :27765 MB
+# Available Virtual :10830 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from '/home/goossens/goossens-book-ip-projects/2024.1/chapter_2' since last save.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/workspace/hls_component/my_adder_ip'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/workspace/hls_component/my_adder_ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_auto_pc_0
+design_1_processing_system7_0_0
+design_1_ps7_0_axi_periph_0
+design_1_rst_ps7_0_100M_0
+design_1_my_adder_ip_0_1
+
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 1677.340 ; gain = 493.238
+update_compile_order -fileset sources_1
+WARNING: [Vivado 12-4173] The following IPs are not generated and locked, no out-of-context (OOC) run will be created. Please select 'Report IP Status' from 'Tools/Report' or run Tcl command 'report_ip_status' for more information.
+C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.srcs/sources_1/bd/design_1/design_1.bd
+
+synth_design -top design_1_wrapper -part xc7z020clg400-1 -lint 
+Command: synth_design -top design_1_wrapper -part xc7z020clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 256
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 2139.215 ; gain = 452.711
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_my_adder_ip_0_1' [C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/.Xil/Vivado-12856-DESKTOP-Q1LROLE/realtime/design_1_my_adder_ip_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_my_adder_ip_0_1' (1#1) [C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/.Xil/Vivado-12856-DESKTOP-Q1LROLE/realtime/design_1_my_adder_ip_0_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'design_1_my_adder_ip_0_1' is unconnected for instance 'my_adder_ip_0' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:138]
+WARNING: [Synth 8-7023] instance 'my_adder_ip_0' of module 'design_1_my_adder_ip_0_1' has 20 connections declared, but only 19 given [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:138]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/.Xil/Vivado-12856-DESKTOP-Q1LROLE/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (2#1) [C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/.Xil/Vivado-12856-DESKTOP-Q1LROLE/realtime/design_1_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:158]
+WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:158]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' has 65 connections declared, but only 63 given [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:158]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ps7_0_axi_periph_0' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:293]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:598]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/.Xil/Vivado-12856-DESKTOP-Q1LROLE/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (3#1) [C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/.Xil/Vivado-12856-DESKTOP-Q1LROLE/realtime/design_1_auto_pc_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'design_1_auto_pc_0' is unconnected for instance 'auto_pc' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:833]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'design_1_auto_pc_0' is unconnected for instance 'auto_pc' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:833]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'design_1_auto_pc_0' has 59 connections declared, but only 57 given [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:833]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (4#1) [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:598]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_0' (5#1) [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:293]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/.Xil/Vivado-12856-DESKTOP-Q1LROLE/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (6#1) [C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/.Xil/Vivado-12856-DESKTOP-Q1LROLE/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:284]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:284]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:284]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:284]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'design_1_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:284]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (7#1) [c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (8#1) [C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2232.465 ; gain = 545.961
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1.2 (win64) Build 5164865 Thu Sep  5 14:37:11 MDT 2024
+| Date         : Fri Jan 31 02:19:46 2025
+| Host         : DESKTOP-Q1LROLE running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+----------+--------------+----------+
+| Rule ID   | Severity | # Violations | # Waived |
++-----------+----------+--------------+----------+
+| ASSIGN-5  | WARNING  | 21           | 0        |
+| ASSIGN-6  | WARNING  | 2            | 0        |
+| ASSIGN-10 | WARNING  | 4            | 0        |
++-----------+----------+--------------+----------+
+
+
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'processing_system7_0_DDR_ADDR' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_ADDR', Hierarchy 'design_1', File 'design_1.v', Line 58.
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'processing_system7_0_DDR_BA' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_BA', Hierarchy 'design_1', File 'design_1.v', Line 59.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_CAS_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_CAS_N', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 60.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_CKE' declared and are not set.
+RTL Name 'processing_system7_0_DDR_CKE', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 61.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_CK_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_CK_N', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 62.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_CK_P' declared and are not set.
+RTL Name 'processing_system7_0_DDR_CK_P', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 63.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_CS_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_CS_N', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 64.
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'processing_system7_0_DDR_DM' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_DM', Hierarchy 'design_1', File 'design_1.v', Line 65.
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'processing_system7_0_DDR_DQ' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_DQ', Hierarchy 'design_1', File 'design_1.v', Line 66.
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'processing_system7_0_DDR_DQS_N' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_DQS_N', Hierarchy 'design_1', File 'design_1.v', Line 67.
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'processing_system7_0_DDR_DQS_P' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_DQS_P', Hierarchy 'design_1', File 'design_1.v', Line 68.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_ODT' declared and are not set.
+RTL Name 'processing_system7_0_DDR_ODT', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 69.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_RAS_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_RAS_N', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 70.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_RESET_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_RESET_N', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 71.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_WE_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_WE_N', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 72.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_FIXED_IO_DDR_VRN' declared and are not set.
+RTL Name 'processing_system7_0_FIXED_IO_DDR_VRN', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 75.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_FIXED_IO_DDR_VRP' declared and are not set.
+RTL Name 'processing_system7_0_FIXED_IO_DDR_VRP', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 76.
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'processing_system7_0_FIXED_IO_MIO' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_FIXED_IO_MIO', Hierarchy 'design_1', File 'design_1.v', Line 77.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_FIXED_IO_PS_CLK' declared and are not set.
+RTL Name 'processing_system7_0_FIXED_IO_PS_CLK', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 78.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_FIXED_IO_PS_PORB' declared and are not set.
+RTL Name 'processing_system7_0_FIXED_IO_PS_PORB', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 79.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_FIXED_IO_PS_SRSTB' declared and are not set.
+RTL Name 'processing_system7_0_FIXED_IO_PS_SRSTB', Hierarchy 'design_1', File 'c:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/synth/design_1.v', Line 80.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'ps7_0_axi_periph_M00_AXI_ARADDR' are not read. First unread bit index is 6. 
+RTL Name 'ps7_0_axi_periph_M00_AXI_ARADDR', Hierarchy 'design_1', File 'design_1.v', Line 119.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'ps7_0_axi_periph_M00_AXI_AWADDR' are not read. First unread bit index is 6. 
+RTL Name 'ps7_0_axi_periph_M00_AXI_AWADDR', Hierarchy 'design_1', File 'design_1.v', Line 122.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'ACLK' are not read. First unread bit index is 0. 
+RTL Name 'ACLK', Hierarchy 'design_1_ps7_0_axi_periph_0', File 'design_1.v', Line 355.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'ARESETN' are not read. First unread bit index is 0. 
+RTL Name 'ARESETN', Hierarchy 'design_1_ps7_0_axi_periph_0', File 'design_1.v', Line 356.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'M_ACLK' are not read. First unread bit index is 0. 
+RTL Name 'M_ACLK', Hierarchy 's00_couplers_imp_UYSKKA', File 'design_1.v', Line 658.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'M_ARESETN' are not read. First unread bit index is 0. 
+RTL Name 'M_ARESETN', Hierarchy 's00_couplers_imp_UYSKKA', File 'design_1.v', Line 659.
+INFO: [Synth 37-85] Total of 27 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2232.465 ; gain = 545.961
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 40 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2232.465 ; gain = 545.961
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp with file C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.runs/synth_1/design_1_wrapper.dcp
+launch_runs synth_1 -jobs 6
+[Fri Jan 31 02:20:03 2025] Launched synth_1...
+Run output will be captured here: C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'design_1_wrapper'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-20] The project contains locked or custom IPs. The pre-compiled version of these IPs will not be referenced and the sources from these IP libraries will be compiled locally.
+INFO: [SIM-utils-54] Inspecting design source files for 'design_1_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -L axi_vip_v1_1_18 -L processing_system7_vip_v1_0_20 -L axi_vip_v1_1_17 -L processing_system7_vip_v1_0_19 -L xilinx_vip -prj design_1_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v" into library axi_infrastructure_v1_1_0
+INFO: [VRFC 10-311] analyzing module axi_infrastructure_v1_1_0_axi2vector
+INFO: [VRFC 10-311] analyzing module axi_infrastructure_v1_1_0_axic_srl_fifo
+INFO: [VRFC 10-311] analyzing module axi_infrastructure_v1_1_0_vector2axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/4d04/hdl/axi_vip_v1_1_vl_rfs.sv" into library axi_vip_v1_1_17
+INFO: [VRFC 10-311] analyzing module axi_vip_v1_1_17_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/b28c/hdl/processing_system7_vip_v1_0_vl_rfs.sv" into library processing_system7_vip_v1_0_19
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_wr
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_rd
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_wr_4
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_rd_4
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_hp2_3
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_arb_hp0_1
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_ssw_hp
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_sparse_mem
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_reg_map
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_ocm_mem
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_intr_wr_mem
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_intr_rd_mem
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_fmsw_gp
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_regc
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_ocmc
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_interconnect_model
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_gen_reset
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_gen_clock
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_ddrc
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_axi_slave
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_axi_slave_acp
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_axi_master
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19_afi_slave
+INFO: [VRFC 10-311] analyzing module processing_system7_vip_v1_0_19
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.ip_user_files/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_processing_system7_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/0c28/hdl/generic_baseblocks_v2_1_vl_rfs.v" into library generic_baseblocks_v2_1_2
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_carry_and
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_carry_latch_and
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_carry_latch_or
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_carry_or
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_carry
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_command_fifo
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_mask_static
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_mask
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_sel_mask_static
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_sel_mask
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_sel_static
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_sel
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator_static
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_comparator
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_mux_enc
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_mux
+INFO: [VRFC 10-311] analyzing module generic_baseblocks_v2_1_2_nto1_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/1443/simulation/fifo_generator_vlog_beh.v" into library fifo_generator_v13_2_10
+INFO: [VRFC 10-311] analyzing module fifo_generator_vlog_beh
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_CONV_VER
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_sync_stage
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_bhv_ver_as
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_beh_ver_ll_afifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_bhv_ver_ss
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_bhv_ver_preload0
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10_axic_reg_slice
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/1443/hdl/fifo_generator_v13_2_rfs.v" into library fifo_generator_v13_2_10
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/9692/hdl/axi_data_fifo_v2_1_vl_rfs.v" into library axi_data_fifo_v2_1_30
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_axic_fifo
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_fifo_gen
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_axic_srl_fifo
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_axic_reg_srl_fifo
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_ndeep_srl
+INFO: [VRFC 10-311] analyzing module axi_data_fifo_v2_1_30_axi_data_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/92b2/hdl/axi_register_slice_v2_1_vl_rfs.v" into library axi_register_slice_v2_1_31
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_test_master
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_test_slave
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_tdm_sample
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_auto_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_auto_src
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_auto_dest
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_srl_rtl
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_axic_register_slice
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_multi_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_middle_region_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_source_region_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_dest_region_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_single_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_axic_reg_srl_fifo
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_31_axi_register_slice
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/3c06/hdl/axi_protocol_converter_v2_1_vl_rfs.v" into library axi_protocol_converter_v2_1_31
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_a_axi3_conv
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_axi3_conv
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_axilite_conv
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_r_axi3_conv
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_w_axi3_conv
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b_downsizer
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_decerr_slave
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_simple_fifo
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_wrap_cmd
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_incr_cmd
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_wr_cmd_fsm
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_rd_cmd_fsm
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_cmd_translator
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_b_channel
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_r_channel
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_aw_channel
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s_ar_channel
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_b2s
+INFO: [VRFC 10-311] analyzing module axi_protocol_converter_v2_1_31_axi_protocol_converter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.ip_user_files/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/097b/hdl/verilog/my_adder_ip_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_adder_ip_control_s_axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/097b/hdl/verilog/my_adder_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_adder_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.ip_user_files/bd/design_1/ip/design_1_my_adder_ip_0_1/sim/design_1_my_adder_ip_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_my_adder_ip_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-311] analyzing module design_1_ps7_0_axi_periph_0
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_UYSKKA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj design_1_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/1443/hdl/fifo_generator_v13_2_rfs.vhd" into library fifo_generator_v13_2_10
+INFO: [VRFC 10-3107] analyzing entity 'input_blk'
+INFO: [VRFC 10-3107] analyzing entity 'output_blk'
+INFO: [VRFC 10-3107] analyzing entity 'shft_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'shft_ram'
+INFO: [VRFC 10-3107] analyzing entity 'wr_pf_as'
+INFO: [VRFC 10-3107] analyzing entity 'wr_pf_ss'
+INFO: [VRFC 10-3107] analyzing entity 'rd_pe_as'
+INFO: [VRFC 10-3107] analyzing entity 'rd_pe_ss'
+INFO: [VRFC 10-3107] analyzing entity 'synchronizer_ff'
+INFO: [VRFC 10-3107] analyzing entity 'delay'
+INFO: [VRFC 10-3107] analyzing entity 'bin_cntr'
+INFO: [VRFC 10-3107] analyzing entity 'clk_x_pntrs_builtin'
+INFO: [VRFC 10-3107] analyzing entity 'logic_builtin'
+INFO: [VRFC 10-3107] analyzing entity 'builtin_prim'
+INFO: [VRFC 10-3107] analyzing entity 'builtin_extdepth'
+INFO: [VRFC 10-3107] analyzing entity 'builtin_top'
+INFO: [VRFC 10-3107] analyzing entity 'reset_builtin'
+INFO: [VRFC 10-3107] analyzing entity 'builtin_prim_v6'
+INFO: [VRFC 10-3107] analyzing entity 'builtin_extdepth_v6'
+INFO: [VRFC 10-3107] analyzing entity 'builtin_extdepth_low_latency'
+INFO: [VRFC 10-3107] analyzing entity 'builtin_top_v6'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_v13_2_10_builtin'
+INFO: [VRFC 10-3107] analyzing entity 'bram_sync_reg'
+INFO: [VRFC 10-3107] analyzing entity 'bram_fifo_rstlogic'
+INFO: [VRFC 10-3107] analyzing entity 'reset_blk_ramfifo'
+INFO: [VRFC 10-3107] analyzing entity 'axi_reg_slice'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_top'
+INFO: [VRFC 10-3107] analyzing entity 'fifo_generator_v13_2_10_synth'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd" into library lib_cdc_v1_0_3
+INFO: [VRFC 10-3107] analyzing entity 'cdc_sync'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.gen/sources_1/bd/design_1/ipshared/3a26/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" into library proc_sys_reset_v5_0_15
+INFO: [VRFC 10-3107] analyzing entity 'upcnt_n'
+INFO: [VRFC 10-3107] analyzing entity 'sequence_psr'
+INFO: [VRFC 10-3107] analyzing entity 'lpf'
+INFO: [VRFC 10-3107] analyzing entity 'proc_sys_reset'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.ip_user_files/bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_rst_ps7_0_100M_0'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2232.465 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_17 -L processing_system7_vip_v1_0_19 -L generic_baseblocks_v2_1_2 -L fifo_generator_v13_2_10 -L axi_data_fifo_v2_1_30 -L axi_register_slice_v2_1_31 -L axi_protocol_converter_v2_1_31 -L lib_cdc_v1_0_3 -L proc_sys_reset_v5_0_15 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Vivado Simulator v2024.1.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_17 -L processing_system7_vip_v1_0_19 -L generic_baseblocks_v2_1_2 -L fifo_generator_v13_2_10 -L axi_data_fifo_v2_1_30 -L axi_register_slice_v2_1_31 -L axi_protocol_converter_v2_1_31 -L lib_cdc_v1_0_3 -L proc_sys_reset_v5_0_15 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 2232.465 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_runs impl_1 -jobs 6
+[Fri Jan 31 02:21:04 2025] Launched impl_1...
+Run output will be captured here: C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/chapter_2/project_1.runs/impl_1/runme.log
+reset_run impl_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 31 02:21:24 2025...

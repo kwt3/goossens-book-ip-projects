@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.2 (64-bit)
+# SW Build 5164865 on Thu Sep  5 14:37:11 MDT 2024
+# IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+# SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+# Start of session at: Fri Jan 24 00:12:48 2025
+# Process ID: 4864
+# Current directory: C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7584 C:\Users\kwokt\Desktop\goossens-book-ip-projects-main\2024.1\rv32i_pp_ip\project_1.xpr
+# Log file: C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/vivado.log
+# Journal file: C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip\vivado.jou
+# Running On        :DESKTOP-Q1LROLE
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz
+# CPU Frequency     :2592 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :17028 MB
+# Swap memory       :11174 MB
+# Total Virtual     :28202 MB
+# Available Virtual :5780 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/project_1.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/kwokt/Desktop/goossens-book-ip-projects-main/2024.1/rv32i_pp_ip/project_1.srcs/sources_1/bd/design_1/design_1.bd}
